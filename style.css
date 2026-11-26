@@ -1,0 +1,40 @@
+/*გვერდის საერთო სტილი*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: azure;
+}
+
+/*ცხრილის სტილი*/
+table {
+    width: 80px;
+    margin: 50px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+/*ცხრილის სათაური*/
+caption {
+    font-size: 24px;
+    font-weight: blod;
+    margin-bottom: 20px;
+
+}
+
+/*ცხრილის უჯრები*/
+tr, td {
+    border: 1px solid pink;
+    padding: 15px;
+    text-align: center;
+}
+
+/*სათაურის მწკრივი*/
+thead {
+    background-color: rgba(9, 255, 0, 0.986);
+    color: white;
+
+}
+
+/* გაერთიანებული უჯრები */
+td[colspan] {
+    background-color: #e8e8e8;
+}
